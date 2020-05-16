@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html land="en">
+
+<head>
+    <title>Ahmed's Pixal Art</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chewy">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Pixel Art Maker</h1>
+    <h4><ins> By: Ahmed Hussein</ins></h4>
+
+    <h2 class="gridh2">Choose Grid Size</h2>
+    <form>
+        <Label for="inputHeight">Grid Height:</Label>
+        <input type="number" id="inputHeight" min="1" max="60" value="1">
+        <Label for="inputWidth">Grid Width:</Label>
+        <input type="number" id="inputWidth" min="1" max="60" value="1">
+        <input type="button" value="Submit" onclick="grid()">
+    </form>
+
+    <h2 class="pick">Pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2 class="canvas">Design Canvas</h2>
+    <table id="gridTable"></table>
+
+    <script src="art.js"></script>
+</body>
+
+</html>

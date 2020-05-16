@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Chewy;
+    font-weight: bold;
+    font-size: 100px;
+    text-shadow: 4px 4px 4px rgb(148, 119, 119);
+    margin: .2em;
+    margin-bottom: 0;
+}
+
+h2 {
+    font: 20pt bold georgia, cursive;
+    margin: .25em;
+}
+
+.gridh2,
+.pick,
+.canvas {
+    margin-bottom: 1px;
+}
+
+form {
+    margin-bottom: .5em;
+}
+
+
+input[type="number"] {
+    width: 4em;
+}
+
+input[type="color"] {
+    width: 2em;
+    border: 1px solid black;
+    margin-top: 0em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 22px;
+}
+
+td {
+    width: 22px;
+}
+
+
+h4 {
+    background-color: rgb(243, 242, 242);
+    display: inline;
+    font-weight: 900;
+}
